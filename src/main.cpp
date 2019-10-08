@@ -1409,7 +1409,7 @@ int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, i
 		nSubsidy = 5 * COIN;
 	}
 	else {
-		nSubsidy = 8 * COIN;
+		nSubsidy = 5 * COIN;
 	}
 	return nSubsidy;
 }
@@ -4621,7 +4621,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
 		ret = blockValue * 92 / 100;  
 	}
 	else {
-		ret = blockValue * 90 / 100;  
+		ret = blockValue * 95 / 100;  
 	}
 
 	return ret;
