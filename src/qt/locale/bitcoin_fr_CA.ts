@@ -1731,8 +1731,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 FastX</source>
-        <translation>123.456 FastX {0.00 ?}</translation>
+        <source>0.00 FASTX</source>
+        <translation>123.456 FASTX {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 FastX</source>
-        <translation>123.456 FastX</translation>
+        <source>123.456 FASTX</source>
+        <translation>123.456 FASTX</translation>
     </message>
     <message>
         <location line="+31"/>

@@ -789,7 +789,7 @@ void CDarksendPool::ChargeRandomFees(){
                 with using it to stop abuse. Otherwise it could serve as an attack vector and
                 allow endless transaction that would bloat TransFast and make it unusable. To
                 stop these kinds of attacks 1 in 50 successful transactions are charged. This
-                adds up to a cost of 0.002FastX per transaction on average.
+                adds up to a cost of 0.002FASTX per transaction on average.
             */
             if(r <= 10)
             {
@@ -1930,10 +1930,10 @@ bool CDarksendPool::IsCompatibleWithSession(int64_t nDenom, CTransaction txColla
 void CDarksendPool::GetDenominationsToString(int nDenom, std::string& strDenom){
     // Function returns as follows:
     //
-    // bit 0 - 100FastX+1 ( bit on if present )
-    // bit 1 - 10FastX+1
-    // bit 2 - 1FastX+1
-    // bit 3 - .1FastX+1
+    // bit 0 - 100FASTX+1 ( bit on if present )
+    // bit 1 - 10FASTX+1
+    // bit 2 - 1FASTX+1
+    // bit 3 - .1FASTX+1
     // bit 3 - non-denom
 
 
@@ -2006,10 +2006,10 @@ int CDarksendPool::GetDenominations(const std::vector<CTxOut>& vout, bool fSingl
 
     // Function returns as follows:
     //
-    // bit 0 - 100FastX+1 ( bit on if present )
-    // bit 1 - 10FastX+1
-    // bit 2 - 1FastX+1
-    // bit 3 - .1FastX+1
+    // bit 0 - 100FASTX+1 ( bit on if present )
+    // bit 1 - 10FASTX+1
+    // bit 2 - 1FASTX+1
+    // bit 3 - .1FASTX+1
 
     return denom;
 }

@@ -1719,8 +1719,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 FastX</source>
-        <translation>123.456 FastX {0.00 ?}</translation>
+        <source>0.00 FASTX</source>
+        <translation>123.456 FASTX {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1789,8 +1789,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 FastX</source>
-        <translation>123.456 FastX</translation>
+        <source>123.456 FASTX</source>
+        <translation>123.456 FASTX</translation>
     </message>
     <message>
         <location line="+31"/>

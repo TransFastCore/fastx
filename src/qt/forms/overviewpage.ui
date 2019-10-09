@@ -1137,7 +1137,7 @@
                </font>
               </property>
               <property name="text">
-               <string notr="true">0 FastX</string>
+               <string notr="true">0 FASTX</string>
               </property>
              </widget>
             </item>
@@ -1169,7 +1169,7 @@
                </font>
               </property>
               <property name="text">
-               <string>0 FastX / 0 Rounds</string>
+               <string>0 FASTX / 0 Rounds</string>
               </property>
              </widget>
             </item>
