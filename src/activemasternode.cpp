@@ -10,9 +10,7 @@
 #include <boost/lexical_cast.hpp>
 #include "clientversion.h"
 
-//
-// Bootup the masternode, look for a 5000 or 10000 or 20000 input and register on the network
-//
+
 void CActiveMasternode::ManageStatus()
 {
     std::string errorMessage;
