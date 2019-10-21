@@ -1034,6 +1034,7 @@ bool AppInit2(boost::thread_group& threadGroup)
             pwalletMain->LockCoin(outpoint);
         }
 	}
+	
     fEnableDarksend = GetBoolArg("-enabledarksend", false);
 
     nDarksendRounds = GetArg("-darksendrounds", 2);

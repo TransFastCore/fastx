@@ -435,6 +435,22 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
     vector<COutput> filteredCoins;
 	vector<COutPoint> confLockedCoins;
 
+	    // Temporary unlock MN coins from masternode.conf
+    if (GetBoolArg("-mnconflock", true)) {
+        uint256 mnTxHash;
+        BOOST_FOREACH (CMasternodeConfig::CMasternodeEntry mne, masternodeConfig.getEntries()) {
+            mnTxHash.SetHex(mne.getTxHash());
+
+            int nIndex;
+            if(!mne.castOutputIndex(nIndex))
+                continue;
+
+            COutPoint outpoint = COutPoint(mnTxHash, nIndex);
+            confLockedCoins.push_back(outpoint);
+            pwalletMain->UnlockCoin(outpoint);
+        }
+    }
+	
     // Retrieve all possible outputs
     pwalletMain->AvailableCoinsMN(vCoins);
 	
