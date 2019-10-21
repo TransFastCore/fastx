@@ -67,5 +67,5 @@ bool CMasternodeConfig::CMasternodeEntry::castOutputIndex(int &n)
         LogPrintf("%s: %s on getOutputIndex\n", __func__, e.what());
         return false;
     }
-
+    return true;
 }
